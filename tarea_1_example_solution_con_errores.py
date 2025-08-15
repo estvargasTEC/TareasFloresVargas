@@ -1,7 +1,7 @@
 # Codigo Tarea 1 Microprocesadores y microcontroladores
+# Esteban Vargas Monge y Emily Flores Rojas
 
 # FLAKE8 ERROR 1: F401 - Unused import
-import os
 
 
 def count_char(cadena, caracter):
@@ -22,7 +22,9 @@ def count_char(cadena, caracter):
 
     count = cadena.count(caracter)
     return (0, count)
-def multiplo_2(base, multiplo):  # FLAKE8 ERROR 2: E302 - Missing blank lines
+
+
+def multiplo_2(base, multiplo): 
     """Calcula múltiplo * base usando bit-shifting."""
 
     if (isinstance(base, str) or isinstance(multiplo, str) or
@@ -47,5 +49,10 @@ def multiplo_2(base, multiplo):  # FLAKE8 ERROR 2: E302 - Missing blank lines
 
     return (0, resultado)
 
-# FLAKE8 ERROR 3: E501 - Line too long (>79 characters)
-# Error codes: Success: 0, count_char errors: -100 (not string), -200 (invalid chars), -300 (invalid character), multiplo_2 errors: -400 (not positive integers), -500 (invalid multiplier)
+
+# Error codes: Success: 0, 
+# count_char errors: -100 (not string), 
+#                    -200 (invalid chars), 
+#                    -300 (invalid character), 
+# multiplo_2 errors: -400 (not positive integers), 
+#                    -500 (invalid multiplier)
