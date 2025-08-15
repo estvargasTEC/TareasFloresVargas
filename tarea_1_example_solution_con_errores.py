@@ -1,6 +1,7 @@
 # Codigo Tarea 1 Microprocesadores y microcontroladores
 # Esteban Vargas Monge y Emily Flores Rojas
 
+# FLAKE8 ERROR 1: F401 - Unused import
 
 
 def count_char(cadena, caracter):
@@ -47,6 +48,7 @@ def multiplo_2(base, multiplo):
         resultado = base << 4
 
     return (0, resultado)
+
 
 # Error codes: Success: 0, 
 # count_char errors: -100 (not string), 
