@@ -1,2 +1,3 @@
-# TareasFloresVargas
-Tareas del curso de Microprocesadores y Microcontroladores
+# Tareas Emily Flores Rojas y Esteban Vargas Monge
+
+Tarea 1: GitHub, Pytest y Flake8
