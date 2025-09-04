@@ -24,7 +24,7 @@ def count_char(cadena, caracter):
     return (0, count)
 
 
-def multiplo_2(base, multiplo): 
+def multiplo_2(base, multiplo):
     """Calcula múltiplo * base usando bit-shifting."""
 
     if (isinstance(base, str) or isinstance(multiplo, str) or

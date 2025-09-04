@@ -1,8 +1,6 @@
 # Codigo Tarea 1 Microprocesadores y microcontroladores
 # Esteban Vargas Monge y Emily Flores Rojas
 
-
-
 def count_char(cadena, caracter):
     """Cuenta las veces que un carácter aparece en una cadena."""
 
@@ -23,7 +21,7 @@ def count_char(cadena, caracter):
     return (0, count)
 
 
-def multiplo_2(base, multiplo): 
+def multiplo_2(base, multiplo):
     """Calcula múltiplo * base usando bit-shifting."""
 
     if (isinstance(base, str) or isinstance(multiplo, str) or
@@ -48,9 +46,9 @@ def multiplo_2(base, multiplo):
 
     return (0, resultado)
 
-# Error codes: Success: 0, 
-# count_char errors: -100 (not string), 
-#                    -200 (invalid chars), 
-#                    -300 (invalid character), 
-# multiplo_2 errors: -400 (not positive integers), 
+# Error codes: Success: 0,
+# count_char errors: -100 (not string),
+#                    -200 (invalid chars),
+#                    -300 (invalid character),
+# multiplo_2 errors: -400 (not positive integers),
 #                    -500 (invalid multiplier)
